@@ -3,22 +3,68 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0;
+    background-color: #1F2937;
 }
 
 .banner {
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 .information {
-    /* display: flex; */
+    text-align: center;
 }
 
 .info-container {
     display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+.emptybox {
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightblue;
+    background: transparent;
+    border-radius: 10px;
+    border-width: 2px;
+    
 }
 
 .quote {
