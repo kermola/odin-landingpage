@@ -1,1 +1,35 @@
 /* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.banner {
+    display: flex;
+}
+
+.information {
+    /* display: flex; */
+}
+
+.info-container {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.lowerbanner {
+    /* display: flex; */
+}
+
+.lowercontainer {
+    display: flex;
+}
+
