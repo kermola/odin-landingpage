@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .header {
@@ -18,8 +19,36 @@ body {
 
 .banner {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 50px;
+    background-color: #1F2937;
 }
 
+.container {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    max-width: 450px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    padding: .5em 2em;
+    border-radius: .5em;
+    color: #F9FAF8;
+    font-weight: bold;
+}
 ul {
     list-style-type: none;
     display: flex;
