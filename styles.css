@@ -127,11 +127,38 @@ a {
     font-style: italic;
 }
 
-.lowerbanner {
-    /* display: flex; */
+#quoteauthor {
+    padding-top: 0;
+    text-align: end;
+    color:darkslateblue;
 }
 
-.lowercontainer {
+.lowerbanner {
     display: flex;
+    margin: 2em auto;
+    max-width: 800px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 5%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:darkorange;
 }
+
+.lower-text {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+.subtext {
+    font-weight: 400;
+}
+
 
