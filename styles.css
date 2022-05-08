@@ -135,12 +135,13 @@ a {
 
 .lowerbanner {
     display: flex;
-    margin: 2em auto;
-    max-width: 800px;
+    flex-shrink: 1;
+    margin: 2em 10%;
+    /* max-width: 800px; */
     gap: 50px;
     justify-content: space-between;
     align-items: center;
-    padding: .5em 5%;
+    padding: 1em 5%;
     background-color: #3882F6;
     border-radius: 10px;
     border-style:solid;
@@ -149,16 +150,30 @@ a {
 }
 
 .lower-text {
-    display: flex;
+    /* display: flex; */
     color: #F9FAF8;
+    /* max-width: 80%; */
+    /* padding: 1em 0; */
+}
+
+.lower-text h4 {
     font-size: 28px;
     font-weight: 1000;
     margin: 0;
     padding: 0;
 }
 
-.subtext {
+.lower-text p {
     font-weight: 400;
+    padding-top: .25em;
+    margin: 0;
 }
 
+.footer {
+    /* display: block; */
+    background-color: #1F2937;
+    text-align: center;
+    color:#F9FAF8;
+    padding: 1em;
+}
 
