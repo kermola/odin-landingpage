@@ -24,10 +24,12 @@ body {
     padding: 100px 150px;
     gap: 50px;
     background-color: #1F2937;
+    /* flex: auto; */
 }
 
 .container {
     max-width: 500px;
+    flex: 1;
 }
 
 h1 {
@@ -49,6 +51,17 @@ button {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.bannerimage {
+    flex: 0 1 auto;
+    flex-basis: 500px;;
+    /* max-width: 100px; */
+}
+
+img {
+    max-width: 100%;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -63,7 +76,7 @@ a {
 
 h3 {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 1000;
     color: #1F2937;
 }
 .information {
@@ -82,17 +95,17 @@ h3 {
     justify-content: center;
     align-items: center;
     max-width: 150px;
-    color: #1F2937;
+    color: #E5E7EB;
     font-size: 14px;
 }
 
 .emptybox {
     width: 150px;
     height: 150px;
-    border: 1px solid lightblue;
+    border: 1px solid #3882F6;
     background: transparent;
-    border-radius: 10px;
-    border-width: 2px;
+    border-radius: 15px;
+    border-width: 4px;
     
 }
 
